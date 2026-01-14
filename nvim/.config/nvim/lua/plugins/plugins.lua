@@ -19,7 +19,7 @@ return {
       lang = "python3", -- Change this to "cpp", "java", "javascript", etc.
       domain = "com", -- Use "cn" if you are in China
       storage = {
-        home = vim.fn.expand("~/Documents/Leetcode"),
+        home = vim.fn.expand("~/Documents/leetcode"),
         cache = vim.fn.stdpath("cache") .. "/leetcode",
       },
     },
